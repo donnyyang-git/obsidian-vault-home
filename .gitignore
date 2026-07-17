@@ -1,4 +1,7 @@
-    .obsidian/workspace.json
-    .obsidian/workspace-mobile.json
-    .obsidian/cache/
-    .obsidian/plugins/*/node_modules/
+ # Obsidian 雜項與快取
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# 忽略插件產生的 node_modules
+.obsidian/plugins/*/node_modules/

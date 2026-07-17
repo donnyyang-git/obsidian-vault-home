@@ -3,15 +3,15 @@
   "source": "lean-obsidian-terminal",
   "vaultPath": "C:\\donnydoc\\mydocs\\mydocs",
   "bridgePath": "C:\\donnydoc\\mydocs\\mydocs/.obsidian/hermes/context.json",
-  "updatedAt": "2026-07-17T22:53:53.823Z",
-  "updateTimestamp": 1784328833823,
-  "submitSequence": 5,
+  "updatedAt": "2026-07-17T23:23:12.464Z",
+  "updateTimestamp": 1784330592464,
+  "submitSequence": 8,
   "attach": {
     "enabled": false
   },
   "terminal": {
-    "id": "terminal-2",
-    "title": "Hermes 2"
+    "id": "terminal-1",
+    "title": "Hermes 1"
   },
   "context": null
 }

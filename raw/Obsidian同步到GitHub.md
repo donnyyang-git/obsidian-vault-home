@@ -206,3 +206,30 @@ git config --global core.autocrlf true
     
 
 這樣您的 Git 庫會更乾淨、更輕量化。後續還有遇到任何 Git 或同步的問題嗎？
+
+
+### 問題
+```powershell
+PS C:\donnydoc\mydocs\mydocs> git push -u origin main
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 4.25 KiB | 2.13 MiB/s, done.
+Total 11 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 3 local objects.
+To https://github.com/donnyyang-git/obsidian-vault-home
+   a14b190..2ea7956  main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\donnydoc\mydocs\mydocs> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .obsidian/workspace.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\donnydoc\mydocs\mydocs>
+```
