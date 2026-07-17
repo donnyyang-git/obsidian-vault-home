@@ -72,3 +72,137 @@ _(注意：若尚未設定 Git 環境，請確保已安裝 [Git for Windows](htt
     
 
 這樣設定後，您的筆記就會隨著您的編寫進度，自動推送到 GitHub 雲端，達成完美的版本控管。請問目前 Git 的環境在您的電腦上都準備好了嗎？
+
+
+
+### 遇到問題?
+```powershell
+PS C:\donnydoc\mydocs\mydocs> git init
+Initialized empty Git repository in C:/donnydoc/mydocs/mydocs/.git/
+PS C:\donnydoc\mydocs\mydocs> git add .
+warning: in the working copy of '.obsidian/app.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/community-plugins.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/core-plugins.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/graph.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/hermes/context.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/data.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/.binary-manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/conpty_console_list_agent.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/eventEmitter2.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/eventEmitter2.test.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/interfaces.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/shared/conout.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/terminal.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/terminal.test.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/testUtils.test.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/types.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/unixTerminal.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/unixTerminal.test.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/utils.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/windowsConoutConnection.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/windowsPtyAgent.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/windowsPtyAgent.test.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/windowsTerminal.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/windowsTerminal.test.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/lib/worker/conoutSocketWorker.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/node_modules/node-pty/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/hermes-console/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/karpathywiki/data.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/karpathywiki/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/karpathywiki/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/karpathywiki/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/templates.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/workspace.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CLAUDE.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Feature_Request_Proposal_Template.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Inbox/CRM_Sync_Request.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Welcome.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'raw/Obsidian同步到GitHub.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'raw/REBIDIAN加HERMES.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'templates/Feature_Request_Template.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wiki/INDEX.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wiki/Inbox_Protocol.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wiki/schema/config.md', LF will be replaced by CRLF the next time Git touches it
+PS C:\donnydoc\mydocs\mydocs>
+
+```
+別擔心，這**不是錯誤**，這只是 Git 的 **CRLF (換行符號) 警告訊息**。
+
+### 為什麼會出現這個警告？
+
+- **原因**：Windows 預設使用 `CRLF` (Carriage Return + Line Feed) 作為換行符號，而 Git 預設使用 `LF` (Line Feed)。當 Git 偵測到檔案中有 Windows 風格的換行時，會提醒您它在提交時會自動進行轉換。
+    
+- **影響**：對您的筆記內容完全沒有影響，您可以直接繼續下一步。
+    
+
+### 建議處理方式
+
+為了避免以後一直出現這些訊息，您可以執行以下指令來設定 Git 的自動轉換行為：
+
+PowerShell
+
+```
+git config --global core.autocrlf true
+```
+
+### 接續您的設定步驟
+
+由於您已經執行過 `git add .`，現在只需要繼續完成提交與推送到遠端的指令即可：
+
+1. **提交變更**：
+    
+    PowerShell
+    
+    ```
+    git commit -m "Initial commit"
+    ```
+    
+2. **設定主分支名稱**：
+    
+    PowerShell
+    
+    ```
+    git branch -M main
+    ```
+    
+3. **設定遠端並推送** (請將連結換成您在 GitHub 建立的網址)：
+    
+    PowerShell
+    
+    ```
+    git remote add origin https://github.com/您的帳號/您的儲存庫名稱.git
+    git push -u origin main
+    ```
+    
+
+### 給您的特別提醒
+
+看到您的檔案路徑中有 `.obsidian/plugins/` 目錄，裡面包含大量的 node_modules。**這類目錄非常不建議上傳到 GitHub**，原因如下：
+
+1. **同步效率極低**：這些小檔案數量龐大，會導致同步非常慢。
+    
+2. **無須備份**：插件的程式碼 (node_modules) 是可以重新下載的，不需要存進您的筆記庫版本庫。
+    
+
+建議在執行 `git commit` **之前**，先建立一個 `.gitignore` 檔案：
+
+1. 在 `C:\donnydoc\mydocs\mydocs` 目錄下建立一個純文字檔案，命名為 `.gitignore`。
+    
+2. 用記事本打開，貼上以下內容：
+    
+    Plaintext
+    
+    ```
+    .obsidian/workspace.json
+    .obsidian/workspace-mobile.json
+    .obsidian/cache/
+    .obsidian/plugins/*/node_modules/
+    ```
+    
+3. 儲存後，再次執行 `git add .` 然後 `git commit`。
+    
+
+這樣您的 Git 庫會更乾淨、更輕量化。後續還有遇到任何 Git 或同步的問題嗎？
