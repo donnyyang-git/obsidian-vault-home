@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "source": "lean-obsidian-terminal",
+  "vaultPath": "C:\\donnydoc\\mydocs\\mydocs",
+  "bridgePath": "C:\\donnydoc\\mydocs\\mydocs/.obsidian/hermes/context.json",
+  "updatedAt": "2026-07-17T22:53:53.823Z",
+  "updateTimestamp": 1784328833823,
+  "submitSequence": 5,
+  "attach": {
+    "enabled": false
+  },
+  "terminal": {
+    "id": "terminal-2",
+    "title": "Hermes 2"
+  },
+  "context": null
+}
